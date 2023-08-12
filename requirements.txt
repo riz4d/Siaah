@@ -1,0 +1,11 @@
+requests
+pyrogram
+TgCrypto==1.2.5
+wget
+youtube-dl==2021.12.17
+youtube-search==2.1.2
+youtube-search-python==1.6.6
+yt-dlp @ https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz
+urllib3==1.24.2
+ffmpeg==1.4
+instaloader
