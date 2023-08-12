@@ -1,0 +1,38 @@
+{
+	"name": "Siaah",
+	"description": "A telegram bot to assist wide range of tasks",
+	"repository": "https://github.com/riz4d/Siaah",
+        "env": {
+        "API_ID": 
+        {
+            "description": "Get this value from https://my.telegram.org", 
+            "required": true
+        },
+        "API_HASH": 
+        {
+            "description": "Get this value from https://my.telegram.org" ,
+            "required": true
+        },
+        "BOT_TOKEN": 
+        {
+            "description": "Get Bot Token From BotFather Bot",
+            "required": true
+        },
+        "INSTA_USERNAME": 
+        {
+            "description": "Instagram Account UserName",
+            "required": true
+        },
+        "INSTA_PASSWORD": 
+        {
+            "description": "Instagram Account Password",
+            "required": true
+        }
+  },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
