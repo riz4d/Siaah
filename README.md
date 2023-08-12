@@ -15,6 +15,16 @@ pyrogram based telegram bot to  that allows you to download Instagram reels, pos
 
 ### Deploy VPS (Local Machine)
 
+#### Configurations
+
+put the neccessary values to the appropriate variables in config.py file<br>
+`
+username,
+password,
+bot_token,
+api_hash,
+api_id
+`
 
 ##### First step:
 
