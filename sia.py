@@ -35,7 +35,15 @@ if config.api_hash=="":
 else:
     api_hash = config.api_hash    
         
-print(api_id)
+if config.username=="":
+    username_ig = os.environ.get("INSTA_USERNAME")
+else:
+    username_ig = config.username    
+
+if config.password=="":
+    password_ig = os.environ.get("INSTA_PASSWORD")
+else:
+    password_ig = config.password 
 
 ydl_opts = {"format": "bestaudio[ext=m4a]"}
 
