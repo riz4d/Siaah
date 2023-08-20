@@ -51,7 +51,7 @@ ydl_opts = {"format": "bestaudio[ext=m4a]"}
 loader = Instaloader(download_videos=True, download_geotags=False, download_comments=False, compress_json=False)
 
 try:
-    loader.load_session_from_file(f"{username}", filename=f"./{username}")
+    loader.load_session_from_file(f"{username}", filename=f"./{username_ig}")
     print( "Successfully loaded sessionfile to the Bot")
 except:
     try:
