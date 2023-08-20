@@ -55,7 +55,7 @@ try:
     print( "Successfully loaded sessionfile to the Bot")
 except:
     try:
-        loader.login(username, password)
+        loader.login(username_ig, password_ig)
         loader.save_session_to_file(filename=f"./{username_ig}")
         print( "Successfully Configured the Bot")
     except TwoFactorAuthRequiredException:
