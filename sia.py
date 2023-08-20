@@ -51,12 +51,12 @@ ydl_opts = {"format": "bestaudio[ext=m4a]"}
 loader = Instaloader(download_videos=True, download_geotags=False, download_comments=False, compress_json=False)
 
 try:
-    loader.load_session_from_file(f"{username}", filename=f"./{username_ig}")
+    loader.load_session_from_file(f"{username_ig}", filename=f"./{username_ig}")
     print( "Successfully loaded sessionfile to the Bot")
 except:
     try:
         loader.login(username, password)
-        loader.save_session_to_file(filename=f"./{username}")
+        loader.save_session_to_file(filename=f"./{username_ig}")
         print( "Successfully Configured the Bot")
     except TwoFactorAuthRequiredException:
         print( "Disable Two Factor Authentication and try again")
